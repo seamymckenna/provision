@@ -6,8 +6,9 @@ Ruby installed >= 2.3.1
 Vmpooler RSA private key stored in ~/.ssh/id_rsa-acceptance
 
 ## To Use
-`gem install bundler (first time)`
-`rake provision`
+```gem install bundler (first time)
+rake provision
+```
 
 ## Output
 Default operation will provides 4 vms,
