@@ -1,0 +1,5 @@
+gem 'beaker', '>=3.24'
+gem 'beaker-hostgenerator', '>= 1.0'
+gem 'beaker-pe', '>=1.0'
+gem 'rototiller', '~>1.0'
+gem 'rake', '~> 12.0'
