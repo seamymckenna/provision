@@ -1,3 +1,4 @@
+source 'http://rubygems.delivery.puppetlabs.net'
 gem 'beaker', '>=3.24'
 gem 'beaker-hostgenerator', '>= 1.0'
 gem 'beaker-pe', '>=1.0'
