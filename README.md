@@ -43,3 +43,7 @@ For a full list of host strings, run;
 `beaker-hostgenerator -l`
 
 Note that all ubuntu vms will be configured as docker engines and all centos boxes will be webserver.
+
+## VM Lifetime
+The VM's default lifetime will be 2 unless you have a token defined in your ~/.fog file, where default time becomes 12 hours.
+See [vmpooler info](https://confluence.puppetlabs.com/pages/viewpage.action?pageId=28610683#Using"vmpooler"forManualTesting-The"vmfloaty"Utility) for further details.
