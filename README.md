@@ -6,8 +6,8 @@ Ruby installed >= 2.3.1
 Vmpooler RSA private key stored in ~/.ssh/id_rsa-acceptance
 
 ## To Use
-```gem install bundler (first time)
-rake provision```
+`gem install bundler (first time)`
+`rake provision`
 
 ## Output
 Default operation will provides 4 vms,
@@ -39,6 +39,6 @@ E.g
 To change the number/type of vms pass in a beaker hostgenerator arg.
 E.g rake provision hosts=windows2016-64-redhat7-64
 For a full list of host strings, run;
-``beaker-hostgenerator -l``
+`beaker-hostgenerator -l`
 
 Note that all ubuntu vms will be configured as docker engines and all centos boxes will be webserver.
