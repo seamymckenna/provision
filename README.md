@@ -5,6 +5,7 @@ Provision hosts for discovery
 ## Prerequisites
 
 - Ruby installed >= 2.3.1
+- Beaker installed (`gem install beaker`)
 - Vmpooler RSA private key stored in ~/.ssh/id_rsa-acceptance
 
 ## To Use
